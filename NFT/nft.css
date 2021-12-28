@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Red+Hat+Display:ital,wght@0,500;0,900;1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: outfit;
+}
+#container {
+    margin-left: 30%;
+    padding: 29px;
+    width: 35%;
+    line-height: 28px;
+}
+.card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 25px;
+    padding: 29px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 20px 20px 0 rgba(0,0,0,0.7);
+    
+}
+.images {
+    position: relative;
+    overflow: hidden;
+}
+
+.card img{
+    transition: all linear 0.7s;
+}
+.card:hover img {
+    opacity: 1;
+} 
+.card:hover img.hover-img {
+    opacity: 0.5;
+    background-color: cyan;
+    
+}
+img.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    
+}
+.card img {
+    width: 100%;
+    border-radius: 15px;
+    
+}
+.section img {
+    width: 20px;
+    height: 39%;
+}
+ .profile img {
+    width: 50px;
+    height: 2%;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+h1 {
+    margin-top: 15px;
+    color: hsl(0, 0%, 100%);
+}
+h1:hover {
+    color: cyan;
+    cursor: pointer;
+}
+p {
+    margin-top: 15px;
+    color: hsl(215, 51%, 70%);
+}
+.section {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.section .eth {
+    color: hsl(178, 100%, 50%);
+}
+.section .clock {
+    color: hsl(215, 51%, 70%);
+}
+.profile {
+    margin-top: 15px;
+    display: flex;
+}
+.profile p {
+    margin-left: 20px;
+}
+span {
+    color: white;
+}
+span:hover {
+    color: cyan;
+    cursor: pointer;
+}
+hr {
+    color: red;
+    
+}
