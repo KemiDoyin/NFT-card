@@ -11,7 +11,7 @@ body {
     font-family: outfit;
 }
 #container {
-    margin-left: 30%;
+    margin: auto;
     padding: 29px;
     width: 35%;
     line-height: 28px;
